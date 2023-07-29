@@ -1,0 +1,55 @@
+body {
+    background: #FE7B3D;
+    color: white;
+}
+
+h1 {
+    color: white;/* esse altera a cor das letras */
+    background: black;/* altera o fundo da letra */
+    text-align: center;/* centraliza a letra */
+    font-size: 36px;/* tamanho que quero da letra */
+    border: 2px solid yellow;/* altera a cor que a borda tem */
+    border-radius: 10px;/* altera o tamanho da borda */
+    margin-bottom: 50px;/* em cima */
+    margin-top: 50px;/* embaixo */
+    margin-left: 0%;/* esquerda */
+    margin-right: 10px;/* direita */
+
+    /* margin: 50px 70px 50px 50px; */ 
+    /*margin: 80px 50px;  */
+    padding: 10px 0px;
+}
+h2 {
+    background: #CC37E6;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 3px 7px 5px black;
+    font-size: 30px;/*  sombreia o texto ou a borda */
+   
+}
+
+#subtitulo1 {
+background: #37E66A;
+}
+
+#subtitulo2 {
+background: #37E66A;
+}
+
+.sombra{
+    box-shadow: 3px 7px 5px black;
+}
+a {
+    background: black;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
